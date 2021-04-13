@@ -1,0 +1,158 @@
+
+body {
+   margin: 0px;
+   font-family: 'Montserrat',sans-serif;
+}
+#wrapper {
+    display: flex;
+    flex-flow: column;
+    color:blanchedalmond;
+}
+
+#navPlusCompanyContent {
+    height: 120vh;
+    background-image: url("../media/background.jpg");
+    background-size: cover;
+}
+#companyContent {
+    display: flex;
+    flex-flow: column;
+    padding-top: 120px;
+    padding-left: 90px;
+
+
+}
+
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+#logo {
+    margin-left: 90px;
+    cursor: pointer;
+}
+
+nav p {
+    margin: 20px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+#navButton {
+    width: 180px;
+    height: 60px;
+    margin: 15px 70px 0px 70px;
+    background-color: #1f74fb;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    
+}
+nav button svg {
+    margin-left: 10px;
+}
+
+
+#companyContent h1 {
+    font-weight: lighter;
+    font-size: 60px;
+    width: 85vw;
+    font-weight: bolder;
+    
+}
+#companyContent p {
+    font-weight: 100;
+    
+    width: 45vw;
+    line-height: 27px;
+}
+
+#companyContentButton {
+    width: 140px;
+    height: 40px;
+    margin: 25px 0px 0px 0px;
+    background-color: #1f74fb;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+#companyContentButton:hover, #navButton:hover {
+    background-color: #488eff;
+}
+
+#projectsContent {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 120vh;
+    background-color: white;
+    color: black;
+}
+
+#projectsContent p {
+    margin-top: 100px;
+    margin-bottom: -30px;
+    font-size: 40px;
+
+}
+
+#projects {
+    
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#projects div {
+    
+    width: 200px;
+    height: 200px;
+    transition: 0.3s;
+}
+ 
+#p1 {
+    background-image: url("../media/p1.jpg");
+    background-position: center;
+    background-size:cover;
+}
+#p2 {
+    background-image: url("../media/p2.jpg");
+    background-position: center;
+    background-size:cover;
+}
+#p3 {
+    background-image: url("../media/p3.jpg");
+    background-position: center;
+    background-size:cover;
+}
+
+
+#teamContent {
+    height: 120vh;
+}
+
+#projects div:hover {
+    opacity: 0.5;
+}
