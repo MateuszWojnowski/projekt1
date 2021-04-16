@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-flow: column;
     color:blanchedalmond;
+    
 }
 
 #navPlusCompanyContent {
@@ -101,28 +102,33 @@ nav button svg {
 
 #projectsContent {
     display: flex;
-    flex-flow: column;
+    flex-flow: column ;
     align-items: center;
     height: 120vh;
     background-color: white;
     color: black;
+    background-color: #f3f3f3;
+    
+    
 }
 
 #projectsContent p {
     margin-top: 100px;
-    margin-bottom: -30px;
+    
     font-size: 40px;
+    font-weight: 600;
 
 }
 
 #projects {
-    
+    background-color: white;
     width: 75vw;
     height: 75vh;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
+    margin: auto;
 }
 
 #projects div {
@@ -151,6 +157,8 @@ nav button svg {
 
 #teamContent {
     height: 120vh;
+    border: solid black 1px;
+
 }
 
 #projects div:hover {
