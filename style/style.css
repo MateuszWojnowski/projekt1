@@ -2,6 +2,7 @@
 body {
    margin: 0px;
    font-family: 'Montserrat',sans-serif;
+   color: #090909;
 }
 #wrapper {
     display: flex;
@@ -78,7 +79,7 @@ nav button svg {
 }
 #companyContent p {
     font-weight: 100;
-    
+    margin-top: 25px;
     width: 45vw;
     line-height: 27px;
 }
@@ -111,18 +112,35 @@ nav button svg {
     
 }
 
-#projectsContent p {
-    margin-top: 160px;
-    
+#projectsContent h1 {
+    margin-top: 120px;
     font-size: 35px;
     font-weight: 600;
 
 }
 
-#projects {
+#projectsContent h2 {
+    max-width: 85vw;
+    margin-top: 25px;
+    text-align: center;
+font-weight: 300;
+font-size: 1rem;
+line-height: 1.5rem;
+}
+
+#projectsAndTitle {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     background-color: white;
-    width: 75vw;
-    height: 75vh;
+    
+
+}
+
+#projects {
+    
+    
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -130,27 +148,31 @@ nav button svg {
     margin: auto;
 }
 
-#projects div {
-    
-    width: 200px;
-    height: 200px;
+
+
+#p1, #p2, #p3 {
+    background-position: center;
+    background-size:cover;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
     transition: 0.3s;
 }
  
 #p1 {
+   
     background-image: url("../media/p1.jpg");
-    background-position: center;
-    background-size:cover;
+
 }
 #p2 {
+  
     background-image: url("../media/p2.jpg");
-    background-position: center;
-    background-size:cover;
+
 }
 #p3 {
+  
     background-image: url("../media/p3.jpg");
-    background-position: center;
-    background-size:cover;
+    
 }
 
 
@@ -164,9 +186,8 @@ nav button svg {
 
 }
 
-#teamContent p {
-    margin-top: 160px;
-    
+#teamContent h1 {
+    margin-top: 150px;
     font-size: 35px;
     font-weight: 600;
 
@@ -176,6 +197,67 @@ nav button svg {
     background-color: white;
     width: 75vw;
     height: 90vh;
+}
+
+#offerContent {
+    display: flex;
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    background-color: #f3f3f3;
+    color: black;
+}
+
+#offerContent h1 {
+    margin-top: 150px;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+#offerContent h2 {
+    max-width: 85vw;
+    margin-top: 25px;
+    text-align: center;
+font-weight: 300;
+font-size: 1rem;
+line-height: 1.5rem;
+}
+
+#offer1, #offer2, #offer3, #offer4 {
+    height: 300px;
+    width: 80vw;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    color: white;
+}
+
+#offer1 {
+    margin-top: 50px;
+    background-color: #1f74fb;
+}
+
+#offer2 {
+    background-color: #191923;
+}
+
+#offer3 {
+    background-color: #191923;
+}
+
+#offer4 {
+    background-color: #fb891f;
+}
+
+#offerContent h3 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 40px;
+}
+#offerContent h4 {
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 1.5rem;
 }
 
 #projects div:hover {
