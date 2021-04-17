@@ -105,7 +105,6 @@ nav button svg {
     flex-flow: column ;
     align-items: center;
     height: 120vh;
-    background-color: white;
     color: black;
     background-color: #f3f3f3;
     
@@ -113,9 +112,9 @@ nav button svg {
 }
 
 #projectsContent p {
-    margin-top: 100px;
+    margin-top: 160px;
     
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
 
 }
@@ -156,9 +155,27 @@ nav button svg {
 
 
 #teamContent {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
     height: 120vh;
-    border: solid black 1px;
+    background-color: #f3f3f3;
+    color: black;
 
+}
+
+#teamContent p {
+    margin-top: 160px;
+    
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+#team {
+    background-color: white;
+    width: 75vw;
+    height: 90vh;
 }
 
 #projects div:hover {
