@@ -224,6 +224,11 @@ line-height: 1.5rem;
 }
 
 #offer1, #offer2, #offer3, #offer4 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     height: 300px;
     width: 80vw;
     margin-bottom: 50px;
@@ -246,19 +251,59 @@ line-height: 1.5rem;
 
 #offer4 {
     background-color: #fb891f;
+   
 }
 
 #offerContent h3 {
-    margin-top: 30px;
-    margin-left: 30px;
+    /*margin-top: 30px;
+    margin-left: 30px;*/
     font-weight: 600;
-    font-size: 40px;
+    font-size: 50px;
 }
 #offerContent h4 {
-    margin-top: 30px;
-    margin-left: 30px;
+    /*margin-top: 30px;
+    margin-left: 30px;*/
+    max-width: 700px;
+    font-size: 20px;
     line-height: 1.5rem;
 }
+
+#offerContent button {
+        width: 210px;
+        height: 80px;
+        
+        
+        
+        background-color: #1f74fb;
+        border: none;
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+        cursor: pointer;
+}
+
+#offer1 button {
+    background-color: rgb(28, 28, 63);
+    
+}
+
+#offer2 button, #offer3 button {
+
+}
+
+#offer4 button {
+
+}
+
+#offerContent button:hover {
+    background-color: #488eff;
+}
+
+#offer1 button:hover {
+    background-color: rgb(28, 28, 80);
+}
+
 
 #projects div:hover {
     opacity: 0.5;
