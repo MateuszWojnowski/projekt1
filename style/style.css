@@ -46,10 +46,12 @@ nav {
     cursor: pointer;
 }
 
-nav p {
+nav a {
     margin: 20px;
     margin-top: 35px;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
 #navButton {
