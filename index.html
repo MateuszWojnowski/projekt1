@@ -16,16 +16,16 @@
 
 <body>
     <div id="wrapper">
-        <div id="navPlusCompanyContent">
+        <section id="navAndCompanyContent">
             <header>
-                <img id="logo" src="media/logo.png">
+                <img class="logo" src="media/logo.png">
                 <nav>
-                    <a href="#navPlusCompanyContent"><p>Company</p></a>
-                    <a href="#projectsContent"><p>Projects</p></a>
-                    <a href="#teamContent"><p>Team</p></a>
-                    <a href="#offerContent"><p>Offer</p></a>
+                    <a class="navAndCompanyContentTxt" href="#navAndCompanyContent"><p>Company</p></a>
+                    <a class="navAndCompanyContentTxt" href="#projectsContent"><p>Projects</p></a>
+                    <a class="navAndCompanyContentTxt" href="#teamContent"><p>Team</p></a>
+                    <a class="navAndCompanyContentTxt" href="#offerContent"><p>Offer</p></a>
                     
-                    <button id="navButton">Get In Touch <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                    <button class="navButton navAndCompanyContentTxt">Get In Touch <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
                                 d="M9.13827 13.8572L16 7.00006L9.14056 0.142919L8.33257 0.948627L13.8126 6.42863L0 6.42863L0 7.57147L13.8126 7.57147L8.33028 13.0538L9.13827 13.8572Z"
@@ -35,48 +35,48 @@
 
             </header>
             <section id="companyContent">
-                <h1>Custom Application Development Company</h1>
-                <p>Since 2011, we’ve been partnering with startups and entrepreneurs to create, integrate, and support
+                <h1 class="navAndCompanyContentTxt">Custom Application Development Company</h1>
+                <p class="navAndCompanyContentTxt">Since 2011, we’ve been partnering with startups and entrepreneurs to create, integrate, and support
                     modern software solutions. <br>
-                    <button id="companyContentButton">see more</button>
+                    <button class="companyContentButton navAndCompanyContentTxt">see more</button>
                 </p>
 
             </section>
-        </div>
+        </section>
         <section id="projectsContent">
             <h1>Modern-day challenges require modern solutions</h1>
             <h2>Technology has become a crucial part of every business. A lot of companies are looking for ways to use
                 it for their good. And if you aren’t using technology in your business yet, then it’s time to begin.
             </h2>
 
-            <div id="projects">
+            <div class="projects">
                 <a href="">
-                    <div id="p1"></div>
+                    <div class="p1"></div>
                 </a>
                 <a href="">
-                    <div id="p2"></div>
+                    <div class="p2"></div>
                 </a>
                 <a href="">
-                    <div id="p3"></div>
+                    <div class="p3"></div>
                 </a>
             </div>
 
         </section>
         <section id="teamContent">
             <h1>our team</h1>
-            <section id="team">
+            <div class="team">
                 //do zrobienia slider z osobami
-                <div id="person1"></div>
-                <div id="person2"></div>
-                <div id="person3"></div>
-            </section>
+                <div class="person1"></div>
+                <div class="person2"></div>
+                <div class="person3"></div>
+            </div>
         </section>
         <section id="offerContent">
             <h1>solutions dedicated to your needs</h1>
             <h2>Today’s world demands solutions that can quickly evolve to satisfy changing customer expectations. Our
                 approach to development supports flexible architectures, unified coding standards, and optimized
                 delivery process. We enjoy creating scalable products that will live a long and successful life.</h2>
-            <div id="offer1">
+            <div class="offer1">
                 <div>
                 <h3>mini pakiet</h3><br>
                 <h4>The conditions and benefits of using this package are described here...<br>
@@ -85,7 +85,7 @@
             </div>
                 <button>I choose it!</button>
             </div>
-            <div id="offer2">
+            <div class="offer2">
                 <div>
                 <h3>standard pakiet</h3><br>
                 <h4>The conditions and benefits of using this package are described here...<br>
@@ -96,7 +96,7 @@
                 <button>I choose it!</button>
             </div>
             
-            <div id="offer3">
+            <div class="offer3">
                 <div>
                 <h3>standard pakiet +</h3><br>
                 <h4>The conditions and benefits of using this package are described here...<br>
@@ -107,7 +107,7 @@
             </div>
                 <button>I choose it!</button>
             </div>
-            <div id="offer4">
+            <div class="offer4">
                 <div>
                 <h3>premium pakiet</h3><br>
                 <h4>The conditions and benefits of using this package are described here...<br>
@@ -120,6 +120,16 @@
                 <button>I choose it!</button>
             </div>
         </section>
+        <footer>
+            <div>
+                <img src="media/logo.png">
+                <p>Full-cycle Web & Mobile applications development</p>
+            </div>
+            <div>
+                <p>Contact</p>
+                <p>mail@email.com<br>tel. 111222333</p>
+            </div>
+        </footer>
     </div>
     <!--end of wrapper-->
 </body>
